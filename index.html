@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TEJ Application Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TEJ Application Project</h1>
+        <hr>
+        <h2>Samosa</h2>
+        <label for="samosa-price">Price:</label>
+        <input type="number" id="samosa-price" name="price">
+        
+
+        <div class="quantity-input">
+
+            <label for="samosa-quantity">Quantity:</label>
+            <button type="button" onclick="increment1()">+</button>
+            <input  id="samosa-quantity" name="quantity" value="0">
+            <button type="button" onclick="decrement1()">-</button>
+            
+        </div>
+
+        <label for="somasa-total"><b>Total:</b></label>
+        <input class="s" id="samosa-total" name="somasa-total" readonly>
+        <hr>
+    
+        <!.... for Tea...>
+        <h2>Tea</h2>
+        <label for="tea-price">Price:</label>
+        <input type="number" id="tea-price" name="price">
+        
+
+        <div class="quantity-input">
+
+            <label for="quantity">Quantity:</label>
+            <button type="button" onclick="increment2()">+</button>
+            <input  id="tea-quantity" name="quantity" value="0">
+            <button type="button" onclick="decrement2()">-</button>
+        </div>
+
+        <label for="tea-total"><b>Total:</b></label>
+        <input class="s" id="tea-total" name="tea-total" readonly>
+        <hr>
+
+
+
+        <!.. for calulation Total Price..>
+        <div class="calculation">
+            <label for="total-price"><b>Total Price:</b></label>
+            <input class="s" id="total-price" name="total-price" readonly><br>
+
+            <!.. for calulation vat%..>
+            <label for="vat">Vat(13%):</label>
+            <input  id="vat" name="vat" readonly><br>
+    
+            <!.. for calulation Tip..>
+            <label for="tip">Tip(10%):</label>
+            <input  id="tip" name="tip" readonly>
+    
+            <hr>
+        
+
+            <label for="grand-total"><b>Grand Total:</b></label>
+            <input class="s" id="grand-total" name="grand-total" readonly><br>
+            <button type="button" onclick="CalculateTotal()">Calculate Grand Total</button>
+        </div>
+</div>
+    
+
+</body>
+
+<!...for javascript code in scripts.js can access the elements in index.html....>
+<script src="Js/scripts.js"></script>
+
+</html>

@@ -1,0 +1,62 @@
+body,html{
+    margin: 0 235px;
+    position: center;
+    background:white;
+    text-align: center;
+    background-size: cover;
+}
+
+.container{
+   
+    width: 400px;
+    height: 470px;
+    align-content: center;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    background-color: aqua;
+    border-radius: 20px;
+
+}
+.container input[type="number"]{
+    height: 12px;
+}
+
+   
+
+
+.quantity-input input{
+       width: 15px;
+       height: 14px;
+
+}
+
+.s{
+    
+    width: 15px;
+    height: 15px;
+    text-align: left;
+   background-color: inherit;
+   border: none;
+
+}
+
+.calculation input{
+    width: 30px;
+    height: 15px;
+    font-size: 12px;
+    text-align:justify;
+}
+
+h2{
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
